@@ -58,7 +58,7 @@
             // labelSavedResults
             // 
             this.labelSavedResults.BackColor = System.Drawing.Color.White;
-            this.labelSavedResults.Location = new System.Drawing.Point(240, 405);
+            this.labelSavedResults.Location = new System.Drawing.Point(258, 405);
             this.labelSavedResults.Name = "labelSavedResults";
             this.labelSavedResults.Size = new System.Drawing.Size(242, 42);
             this.labelSavedResults.TabIndex = 4;
@@ -161,7 +161,7 @@
             // buttonSaveColor
             // 
             this.buttonSaveColor.BackColor = System.Drawing.Color.Peru;
-            this.buttonSaveColor.Location = new System.Drawing.Point(240, 354);
+            this.buttonSaveColor.Location = new System.Drawing.Point(258, 342);
             this.buttonSaveColor.Name = "buttonSaveColor";
             this.buttonSaveColor.Size = new System.Drawing.Size(242, 48);
             this.buttonSaveColor.TabIndex = 17;
