@@ -65,8 +65,7 @@ namespace _2026_06_Caesar_Cipher_GUI
                 {
                     File.WriteAllText(saveDialog.FileName, labelResult.Text);
                 }
-            }
-            
+            }           
         }
 
         private void labelResult_Paint(object sender, PaintEventArgs e)
