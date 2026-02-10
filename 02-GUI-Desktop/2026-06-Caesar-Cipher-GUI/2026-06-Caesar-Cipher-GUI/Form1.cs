@@ -55,15 +55,18 @@ namespace _2026_06_Caesar_Cipher_GUI
             {
                 MessageBox.Show("Nothing to save!", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-
-            SaveFileDialog saveDialog = new SaveFileDialog();
-            saveDialog.Filter = "Text Files (*.txt)|*.txt|All Files(*.*)|*.*";
-            saveDialog.Title = "Save Ciphertext";
-
-            if (saveDialog.ShowDialog() == DialogResult.OK)
+            else
             {
-                File.WriteAllText(saveDialog.FileName, labelResult.Text);
+                SaveFileDialog saveDialog = new SaveFileDialog();
+                saveDialog.Filter = "Text Files (*.txt)|*.txt|All Files(*.*)|*.*";
+                saveDialog.Title = "Save Ciphertext";
+
+                if (saveDialog.ShowDialog() == DialogResult.OK)
+                {
+                    File.WriteAllText(saveDialog.FileName, labelResult.Text);
+                }
             }
+            
         }
 
         private void labelResult_Paint(object sender, PaintEventArgs e)
