@@ -5,7 +5,7 @@ A C# console application demonstrating Object-Oriented Programming (OOP) princip
 ## Project Structure
 - **Device (Base Class):** Contains a public method `DisplayMessage` to output information to the console.
 - **WashingMachine (Subclass):** - Manages a private `_programNumber`.
-  - Validates program input within the range 1–12.
+  - Validates program input within the range 1â€“12.
 - **VacuumCleaner (Subclass):** - Tracks power state (On/Off) via a private boolean.
   - Prevents redundant state changes (only outputs messages when the state actually flips).
 
@@ -16,8 +16,8 @@ A C# console application demonstrating Object-Oriented Programming (OOP) princip
 
 ## Visual Demonstration
 <p align="left">
-  <img src="./assets/console-valid.png" width="45%" alt="Valid Input Demo" />
-  <img src="./assets/console-invalid.png" width="45%" alt="Invalid Input Demo" />
+  <img src="./assets/demo1.png" width="45%" alt="Valid Input Demo" />
+  <img src="./assets/demo2.png" width="45%" alt="Invalid Input Demo" />
 </p>
 
 *Left: Valid program number (11). Right: Invalid program number (44).*
