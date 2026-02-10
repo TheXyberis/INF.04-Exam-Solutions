@@ -22,7 +22,7 @@ $$NewIndex = (CurrentIndex + (Key \bmod 26) + 26) \bmod 26$$
 
 ## Screenshots
 <p align="left">
-  <img src="./assets/gui-demo.gif" width="500" alt="GUI Application Demo">
+  <img src="./assets/gui-demo.png" width="500" alt="GUI Application Demo">
 </p>
 
 ## Technical Details
