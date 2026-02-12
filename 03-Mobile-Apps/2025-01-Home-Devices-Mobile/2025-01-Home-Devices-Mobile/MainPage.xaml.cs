@@ -13,11 +13,11 @@
             {
                 if (programNum >= 1 && programNum <= 12)
                 {
-                    WashingResultLabel.Text = $"Numer prania: {programNum}";
+                    WashingResultLabel.Text = $"Washing number: {programNum}";
                 }
                 else
                 {
-                    WashingResultLabel.Text = "Numer prania nie podano";
+                    WashingResultLabel.Text = "Washing number not provided";
                 }
             }
         }
@@ -26,13 +26,13 @@
             _isVacuumOn = !_isVacuumOn;
             if (_isVacuumOn)
             {
-                VacuumButton.Text = "Wyłącz";
-                VacuumStatusLabel.Text = "Odkurzac włączony";
+                VacuumButton.Text = "Turn Off";
+                VacuumStatusLabel.Text = "Vacuum is ON";
             }
             else
             {
-                VacuumButton.Text = "Włącz";
-                VacuumStatusLabel.Text = "Odkurzac wyłączony";
+                VacuumButton.Text = "Turn On";
+                VacuumStatusLabel.Text = "Vacuum is OFF";
             }
         }
     }

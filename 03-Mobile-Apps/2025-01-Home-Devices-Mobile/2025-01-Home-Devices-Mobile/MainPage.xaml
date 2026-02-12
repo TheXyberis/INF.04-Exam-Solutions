@@ -6,50 +6,49 @@
     <ScrollView>
         <VerticalStackLayout Padding="10"
                              Spacing="5">
-            <Label Text="Urzadzenia domowe"
+            <Label Text="Home Devices"
                    FontSize="28"
                    HorizontalOptions="Center"
                    Margin="5" />
-            <Label Text="Autor: 00000000000"
+            <Label Text="Author: 00000000000"
                    HorizontalOptions="Center"
                    Margin="5" />
             <HorizontalStackLayout Spacing="10"
                                    Margin="0,0,0,10">
-                <Image Source="pralka.jpg"
+                <Image Source="washing_machine.jpg"
                        HeightRequest="150"
                        Margin="20,0,20,20" />
                 <VerticalStackLayout VerticalOptions="Center">
-                    <Label Text="Pralka"
+                    <Label Text="Washing Machine"
                            FontSize="24" />
                     <Entry x:Name="WashingEntry"
-                           Placeholder="Podaj nr prania 1..12"
+                           Placeholder="Enter program 1..12"
                            Keyboard="Numeric"
                            BackgroundColor="#87CEEB"
                            TextColor="#000080"
                            PlaceholderColor="#000080" />
-                    <Button Text="Zatwierdz"
+                    <Button Text="Confirm"
                             Clicked="OnWashing_Clicked"
-                            BackgroundColor="#4169E1"
-                            Margin="10" />
+                            BackgroundColor="#4169E1" />
                     <Label x:Name="WashingResultLabel"
-                           Text="Numer prania nie podano" />
+                           Text="Washing number not provided" />
                 </VerticalStackLayout>
             </HorizontalStackLayout>
             <HorizontalStackLayout Spacing="10">
-                <Image Source="odkurzac.jpg"
+                <Image Source="vacuum_cleaner.jpg"
                        HeightRequest="150"
-                       Margin="20,20,0,20" />
+                       Margin="20,0,20,20" />
                 <VerticalStackLayout VerticalOptions="Center">
-                    <Label Text="Odkurzac"
+                    <Label Text="Vacuum Cleaner"
                            FontSize="24" />
                     <Button x:Name="VacuumButton"
-                            Text="Włącz"
+                            Text="Turn On"
                             Clicked="OnVacuum_Clicked"
                             BackgroundColor="#4169E1"
                             Margin="10" />
                     <Label x:Name="VacuumStatusLabel"
-                           Text="Odkurac wyłączony" />
-                    <Label Text="Status: naładowany" />
+                           Text="Vacuum is OFF" />
+                    <Label Text="Status: Charged" />
                 </VerticalStackLayout>
             </HorizontalStackLayout>
         </VerticalStackLayout>
