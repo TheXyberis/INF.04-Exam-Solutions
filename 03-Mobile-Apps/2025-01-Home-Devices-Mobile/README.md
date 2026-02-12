@@ -17,8 +17,8 @@ A cross-platform mobile application designed to manage home appliances (Washing 
 
 ## UI Demonstration
 <p align="left">
-  <img src="./assets/mobile-start.png" width="45%" alt="Initial App State" />
-  <img src="./assets/mobile-active.png" width="45%" alt="Active App State" />
+  <img src="./assets/mobile-start.png" height="500" alt="Initial App State" />
+  <img src="./assets/mobile-active.png" height="500" alt="Active App State" />
 </p>
 
 *Left: Initial state. Right: Application after user interaction (program set, vacuum on).*
